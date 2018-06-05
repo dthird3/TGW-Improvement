@@ -250,7 +250,6 @@ equipments = {
 
 		resources = {
 			steel = 1
-			wood = 2
 		}	
 	}
 
