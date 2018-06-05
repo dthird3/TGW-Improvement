@@ -936,21 +936,6 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
 			}
-
-			iconType = {
-				name = "wood_icon"
-				position = { x=403 y=2 }
-				spriteType = "GFX_resources_strip"
-				frame = 8
-				#pdx_tooltip = "PRODUCTION_MATERIALS_WOOD"
-			}			
-			buttonType = {
-				name = "wood_checkbox"
-				position = { x = 427 y = 1 }
-				quadTextureSprite ="GFX_generic_checkbox"
-				Orientation = "UPPER_LEFT"
-				clicksound = click_checkbox
-			}
 		}
 		
 		buttonType = {
@@ -1158,21 +1143,6 @@ guiTypes = {
 				clicksound = click_checkbox
 			}
 
-			iconType = {
-				name = "wood_icon"
-				position = { x=403 y=2 }
-				spriteType = "GFX_resources_strip"
-				frame = 8
-				#pdx_tooltip = "PRODUCTION_MATERIALS_WOOD"
-			}
-			
-			buttonType = {
-				name = "wood_checkbox"
-				position = { x = 427 y = 1 }
-				quadTextureSprite ="GFX_generic_checkbox"
-				Orientation = "UPPER_LEFT"
-				clicksound = click_checkbox
-			}
 		}
 		
 		buttonType = {
