@@ -163,11 +163,6 @@ spriteTypes = {
 		noOfFrames = 8
 	}
 
-	spriteType = {
-		name = "GFX_battle_modifier_strip_trench"
-		texturefile = "gfx/interface/landcombat/battle_modifier_strip_trench.dds"
-		noOfFrames = 1
-	}
 
 	spriteType = {
 		name = "GFX_combat_division_bg"

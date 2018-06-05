@@ -29,11 +29,11 @@ state={
 		buildings={
 			infrastructure=7
 			industrial_complex=2
-			11516={ bunker=1 trench=1 }
-			521={ bunker=1 trench=1  }
-			698={ bunker=4  trench=2 }
-			3646={ bunker=1 trench=1  }
-			3666={ bunker=1 trench=1  }
+			11516={ bunker=1 }
+			521={ bunker=1  }
+			698={ bunker=4 }
+			3646={ bunker=1 }
+			3666={ bunker=1 }
 		}
 	}
 }

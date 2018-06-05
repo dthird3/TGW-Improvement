@@ -30,14 +30,14 @@ state={
 			industrial_complex=2
 			air_base=1
 			6332={ naval_base=5 coastal_bunker=6  }
-			281 = { trench = 3 bunker = 4 }
-			3384 = { trench = 3 bunker = 4 }
-			9372 = { trench = 3 bunker = 4 }
-			11386 = { trench = 3 bunker = 4 }
-			9372 = { trench = 3 bunker = 4 }
-			6375 = { trench = 3 bunker = 4 }
-			9346 = { trench = 3 bunker = 4 }
-			3351 = { trench = 3 bunker = 4 }
+			281 = { bunker = 4 }
+			3384 = { bunker = 4 }
+			9372 = { bunker = 4 }
+			11386 = { bunker = 4 }
+			9372 = { bunker = 4 }
+			6375 = { bunker = 4 }
+			9346 = { bunker = 4 }
+			3351 = { bunker = 4 }
 			}
 		}
 	}
