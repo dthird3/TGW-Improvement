@@ -5,7 +5,7 @@ state={
 	state_category=wasteland
 	provinces={ 1174 4051 4117 4176 7154 7194 10037 10067 11940 12009 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=TUR

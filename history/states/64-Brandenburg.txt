@@ -6,7 +6,7 @@ state={
 	buildings_max_level_factor=1
 	provinces={ 375 3367 3499 3522 6487 6521 9428 9456 9560 11219 11359 11444 11505 }
 	resources={
-		wood=24
+		#wood=24
 		}
 	history={
 		victory_points={ 6521 50 }

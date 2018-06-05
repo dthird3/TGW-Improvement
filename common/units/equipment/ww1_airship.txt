@@ -56,7 +56,6 @@ equipments = {
 		resources = {
 			oil = 1
 			aluminium = 2
-			wood = 6
 		}
 	}
 
@@ -78,7 +77,6 @@ equipments = {
 		resources = {
 			oil = 1
 			aluminium = 3
-			wood = 7
 		}
 	}
 

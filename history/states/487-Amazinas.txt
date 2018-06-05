@@ -5,7 +5,7 @@ state={
 	state_category=pastoral
 	provinces={ 2160 5188 8211 8240 10924 10982 10996 12902 12916 12917 12973 }
 	resources={
-		wood=120
+		#wood=120
 		}
 	history={
 		owner=BOL

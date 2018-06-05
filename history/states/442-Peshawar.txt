@@ -5,7 +5,7 @@ state={
 	state_category=rural
 	provinces={ 1978 2084 4558 4998 12717 12763 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=RAJ

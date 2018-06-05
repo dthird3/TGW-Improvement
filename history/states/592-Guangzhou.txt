@@ -5,7 +5,7 @@ state={
 	state_category=city
 	provinces={ 1047 1087 1131 1187 4092 7039 7152 9963 11938 11941 12077 }
 	resources={
-		wood=0
+		
 		coal=6
 		chromium=0
 		steel=1

@@ -5,7 +5,7 @@ state={
 	state_category=rural
 	provinces={ 9809 9821 11858 }
 	resources={
-		wood=7
+		#wood=7
 		chromium=0
 		}
 	history={

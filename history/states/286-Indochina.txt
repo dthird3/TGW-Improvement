@@ -9,7 +9,7 @@ state={
 	}
 
 	resources={
-		wood=0
+		
 		rubber=0
 		}
 	history={

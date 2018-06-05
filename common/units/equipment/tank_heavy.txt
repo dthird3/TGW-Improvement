@@ -70,7 +70,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 2
-			wood = 2
 		}
 	}
 	# WW1 [2]
@@ -100,7 +99,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 2
-			wood = 3
 		}
 	}
 	# WW1 [3]
@@ -130,7 +128,6 @@ equipments = {
 		resources = {
 			oil = 1
 			steel = 3
-			wood = 3
 		}
 	}
 

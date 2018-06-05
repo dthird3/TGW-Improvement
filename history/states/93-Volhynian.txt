@@ -5,7 +5,7 @@ state={
 	state_category=town
 	provinces={ 422 474 513 572 3412 6435 6546 6557 11441 11543 }
 	resources={
-		wood=13
+		#wood=13
 		}
 	history={
 		owner=RUS

@@ -5,7 +5,7 @@ state={
 	state_category=wasteland
 	provinces={ 1112 1155 4161 9947 10002 10099 11922 11979 12073 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=EGY

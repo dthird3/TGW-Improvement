@@ -5,7 +5,7 @@ state={
 	state_category=enclave
 	provinces={	 3943 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=AUH

@@ -5,7 +5,7 @@ state={
 	state_category=city
 	provinces={ 6241 6286 6336 9309 9335 9363 9403 11318 }
 	resources={
-		wood=4
+		#wood=4
 		}
 	history={
 		owner=HOL

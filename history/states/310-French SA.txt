@@ -5,7 +5,7 @@ state={
 	state_category=pastoral
 	provinces={ 4934 12885 }
 	resources={
-		wood=0
+		
 		aluminium=80
 		}
 	history={

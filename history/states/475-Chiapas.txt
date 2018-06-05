@@ -5,7 +5,7 @@ state={
 	state_category=rural
 	provinces={ 1900 12753 12867 }
 	resources={
-		wood=35
+		#wood=35
 		steel=30
 		oil = 20
 		}

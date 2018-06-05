@@ -5,7 +5,7 @@ state={
 	state_category=city
 	provinces={ 479 6512 9457 9511 11467 }
 	resources={
-		wood=0
+		
 		coal=93
 		aluminium=40
 		steel=55

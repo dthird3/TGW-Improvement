@@ -6,7 +6,7 @@ state={
 	buildings_max_level_factor=1
 	provinces={ 68 391 480 3211 3314 8622 9431 9498 }
 	resources={
-		wood=0
+		
 		steel=0
 		tungsten=7
 		}

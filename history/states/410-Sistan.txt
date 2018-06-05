@@ -5,7 +5,7 @@ state={
 	state_category=rural
 	provinces={ 1889 2039 2070 4891 10782 13082 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=PER

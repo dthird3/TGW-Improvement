@@ -3,7 +3,7 @@ state={
 	name="STATE_670"
 	manpower = 1184000
 	resources={
-		wood=41
+		#wood=41
 	}
 	state_category = pastoral
 

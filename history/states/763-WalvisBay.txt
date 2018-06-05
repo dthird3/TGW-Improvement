@@ -5,7 +5,7 @@ state={
 	state_category=wasteland
 	provinces={ 10978 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=ENG

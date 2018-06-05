@@ -6,7 +6,7 @@ state={
 	buildings_max_level_factor=1.000
 	provinces={ 2142 2147 2204 8175 11010 12939 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=BRA

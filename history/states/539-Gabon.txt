@@ -5,7 +5,7 @@ state={
 	state_category=rural
 	provinces={ 2080 5036 5054 6039 9137 }
 	resources={
-		wood=39
+		#wood=39
 		}
 	history={
 		owner=GER

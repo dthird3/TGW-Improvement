@@ -5,7 +5,7 @@ state={
 	state_category=large_city
 	provinces={ 854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		victory_points={ 9764 15 }

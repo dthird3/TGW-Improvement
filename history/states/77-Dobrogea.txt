@@ -5,7 +5,7 @@ state={
 	state_category=rural
 	provinces={ 9614 11597 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=BUL

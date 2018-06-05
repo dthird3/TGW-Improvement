@@ -5,7 +5,7 @@ state={
 	state_category=wasteland
 	provinces={ 1698 1943 2074 4947 4973 8042 8086 10315 10885 10911 12864 5736 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=QIN

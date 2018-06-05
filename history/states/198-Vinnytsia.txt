@@ -5,7 +5,7 @@ state={
 	state_category=large_town
 	provinces={ 476 6455 6480 9423 9435 9481 9576 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=RUS

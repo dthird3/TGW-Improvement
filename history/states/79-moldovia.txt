@@ -5,7 +5,7 @@ state={
 	state_category=rural
 	provinces= { 723 744 3728 3741 6584 6706 6729 6747 6761 9701 9716 11534 11652 11655 11672 11689 	}
 	resources={
-		wood=16
+		#wood=16
 		}
 	history={
 		victory_points={ 9716 1 }

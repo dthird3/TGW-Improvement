@@ -2,7 +2,7 @@ state={
 	id=776
 	name="STATE_776"
 	resources={
-		wood=5
+		#wood=5
 		steel=2
 		tungsten=5
 	}

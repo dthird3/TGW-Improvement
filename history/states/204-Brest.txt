@@ -5,7 +5,7 @@ state={
 	state_category=rural
 	provinces={ 304 331 360 386 3350 3759 6373 11313 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=RUS

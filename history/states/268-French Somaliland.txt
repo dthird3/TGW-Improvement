@@ -5,7 +5,7 @@ state={
 	state_category=enclave
 	provinces={ 4985 8124 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=FRA

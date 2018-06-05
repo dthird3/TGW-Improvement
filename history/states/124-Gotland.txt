@@ -5,7 +5,7 @@ state={
 	state_category=small_island
 	provinces={ 408 6258 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=SWE

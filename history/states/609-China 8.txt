@@ -5,7 +5,7 @@ state={
 	state_category=town
 	provinces={ 900 1052 3830 3900 6969 11822 12043 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=QIN

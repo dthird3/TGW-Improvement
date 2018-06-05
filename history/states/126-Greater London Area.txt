@@ -5,7 +5,7 @@ state={
 	state_category=megalopolis
 	provinces={ 6103 9239 11333 11374 }
 	resources={
-		wood=5
+		#wood=5
 		}
 	history={
 		victory_points={ 6103 50 }

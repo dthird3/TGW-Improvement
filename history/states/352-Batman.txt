@@ -5,7 +5,7 @@ state={
 	state_category=rural
 	provinces={ 864 1463 6935 7530 10497 12318 12476 }
 	resources={
-		wood=0
+		
 		}
 	history={
 		owner=TUR

@@ -292,7 +292,6 @@ equipments = {
 
 		build_cost_ic = 14
 		resources = {
-			wood = 2
 			oil = 1
 			#rubber = 0
 			#aluminium = 0
@@ -313,7 +312,6 @@ equipments = {
 
 		build_cost_ic = 16
 		resources = {
-			wood = 2
 			oil = 1
 			#rubber = 0
 			#aluminium = 0
@@ -335,7 +333,6 @@ equipments = {
 
 		build_cost_ic = 17
 		resources = {
-			wood = 3
 			oil = 1
 			#rubber = 0
 			#aluminium = 0
@@ -357,7 +354,6 @@ equipments = {
 
 		build_cost_ic = 18
 		resources = {
-			wood = 3
 			oil = 1
 			#rubber = 0
 			#aluminium = 0
@@ -378,7 +374,6 @@ equipments = {
 
 		build_cost_ic = 20
 		resources = {
-			wood = 4
 			oil = 1
 			#aluminium = 0
 		}		
@@ -398,7 +393,6 @@ equipments = {
 
 		build_cost_ic = 21
 		resources = {
-			#wood = 0
 			oil = 1
 			rubber = 1
 			aluminium = 1
@@ -544,7 +538,6 @@ equipments = {
 		
 		build_cost_ic = 17
 		resources = {
-			wood = 2
 			oil = 1
 		}
 
@@ -564,7 +557,6 @@ equipments = {
 		
 		build_cost_ic = 19
 		resources = {
-			wood = 3
 			oil = 1
 		}
 	}

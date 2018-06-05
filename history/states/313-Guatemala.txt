@@ -5,7 +5,7 @@ state={
 	state_category=town
 	provinces={ 4991 10842 10886 13085 }
 	resources={
-		wood=13
+		#wood=13
 		chromium=1
 		}
 	history={

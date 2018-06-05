@@ -5,7 +5,7 @@ state={
 	state_category=city
 	provinces={ 444 478 537 3473 3572 6236 9387 9496 11415 11478 }
 	resources={
-		wood=18
+		#wood=18
 		aluminium=48
 		}
 	history={

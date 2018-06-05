@@ -1,4 +1,4 @@
-name="Hearts of Iron IV: The Great War Improvement Project"
+﻿name="Hearts of Iron IV: The Great War Improvement Project"
 path="mod/greatwarimprovement/"
 tags={
 	"Historical"
