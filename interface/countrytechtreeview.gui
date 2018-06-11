@@ -1074,13 +1074,13 @@ guiTypes = {
 				format = "UP"
 			}
 
-			gridboxtype = {
-				name = "tank_unlocker1_tree"
-				position = { x = 1028 y = 246 }
-				size = { width = 400 height = 400 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
+			#gridboxtype = {
+			#	name = "tank_unlocker1_tree"
+			#	position = { x = 1028 y = 246 }
+			#	size = { width = 400 height = 400 }
+			#	slotsize = { width = 70 height = 70 }
+			#	format = "UP"
+			#}
 
 		}
 
@@ -4428,7 +4428,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
-					text = "1916"
+					text = "1913"
 					maxWidth = 130
 					maxHeight = 32
 					format = left
@@ -4438,6 +4438,19 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "wonderweapon_ww1year5"
 					position = { x = 0 y = 620 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1916"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "wonderweapon_ww1year6"
+					position = { x = 0 y = 740 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -4451,7 +4464,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "wonderweapon_year2"
-					position = { x = 0 y = 750 }
+					position = { x = 0 y = 860 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -4490,7 +4503,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "wonderweapon_year5"
-					position = { x = 0 y = 1110 }
+					position = { x = 0 y = 1230 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -4503,7 +4516,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "wonderweapon_year6"
-					position = { x = 0 y = 1230 }
+					position = { x = 0 y = 1350 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -4516,7 +4529,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "wonderweapon_year7"
-					position = { x = 0 y = 1350 }
+					position = { x = 0 y = 1470 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -4529,7 +4542,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "wonderweapon_year8"
-					position = { x = 0 y = 1470 }
+					position = { x = 0 y = 1590 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -4542,7 +4555,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "wonderweapon_year9"
-					position = { x = 0 y = 1590 }
+					position = { x = 0 y = 1710 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -4593,7 +4606,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "gaz_research_ww1subtitle"
-					position = { x = 900 y = 103 }
+					position = { x = 1095 y = 103 }
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
 					text = "TITLE_CHEMICAL_RESEARCH_SUBTITLE"
@@ -4603,22 +4616,10 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 
-				instantTextBoxType = {
-					name = "tank_research_ww1subtitle"
-					position = { x = 1095 y = 220 }
-
-					font = "hoi_22tech"
-					borderSize = {x = 0 y = 4}
-					text = "TITLE_TANK_RESERACH_SUBTITLE"
-					maxWidth = 200
-					maxHeight = 122
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
 				
 				instantTextBoxType = {
 					name = "atomic_research_subtitle"
-					position = { x = 900 y = 830 }
+					position = { x = 900 y = 103 }
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
 					text = "TITLE_ATOMIC_RESEARCH_SUBTITLE"
@@ -4655,24 +4656,15 @@ guiTypes = {
 			#KiS - Chemical
 			gridboxtype = {
 				name = "chemical_research_tree"
-				position = { x=655 y=292 }
+				position = { x=850 y=292 }
 				size = { width = 680 height = 500 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-			}
-
-			#KiS - Tank Unlocking Tech
-			gridboxtype = {
-				name = "tank_unlocker1_tree"
-				position = { x=950 y=292 }
-				size = { width = 480 height = 650 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
 			}
 
 			
 			gridboxtype = {
-				name = "atomic_research_tree"
+				name = "atomic_research_ww1_tree"
 				position = { x=655 y=292 }
 				size = { width = 680 height = 500 }
 				slotsize = { width=60 height= 60 }
@@ -5616,7 +5608,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "sub_technology_slot_0"
-			position = { x=287 y=1 }
+			position = { x=287 y=5 }
 			size = { width = 35 height = 26 }
 			clipping = no
 			
@@ -5628,7 +5620,25 @@ guiTypes = {
 			iconType = {
 				name = "picture"
 				position = { x=1 y=2 }
-				spriteType = "GFX_subtech_submarine" ##For Coastal Submarine
+				spriteType = "GFX_subtech_submarine2" ##For Coastal Submarine
+				alwaystransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "sub_technology_slot_1"
+			position = { x=287 y=36 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=1 y=2 }
+				spriteType = "GFX_subtech_submarine"
 				alwaystransparent = yes
 			}
 		}
