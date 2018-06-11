@@ -267,7 +267,7 @@ create_navy_leader={  name = "Thaon di Revel" id=46075 portrait_path="gfx/hoi4tg
 
 		# Industry
 		ww1_tools1 = 1
-		ww1_medicine1 = 1
+		
 		ww1_fortification1 = 1
 		ww1_fortification2 = 1
 

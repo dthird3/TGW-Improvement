@@ -260,7 +260,7 @@ create_navy_leader={  name = "Niculescu-Rizea" id=75039 portrait_path="gfx/admir
 
 		# Industry
 		ww1_tools1 = 1
-		ww1_medicine1 = 1
+		
 		ww1_fortification1 = 1
 		ww1_fortification2 = 1
 	}

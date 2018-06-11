@@ -214,7 +214,7 @@ create_equipment_variant={ name="Holland Class" type=light_cruiser_1890 parent_v
 
 		# Industry
 		ww1_tools1 = 1
-		ww1_medicine1 = 1
+		
 		ww1_fortification1 = 1
 		ww1_fortification2 = 1
 	}

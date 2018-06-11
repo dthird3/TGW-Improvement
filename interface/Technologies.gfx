@@ -2343,12 +2343,32 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification3.dds"
 	}
 	SpriteType = {
-		name = "GFX_ww1_fortification3b_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification3b.dds"
-	}
-	SpriteType = {
 		name = "GFX_ww1_fortification4_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_fortification5_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification5.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_fortification6_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification6.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_fortification7_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_fortification7.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_staticaa1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_staticaa1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_staticaa2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_staticaa2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_staticaa3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_staticaa3.dds"
 	}
 
 
@@ -2427,14 +2447,32 @@ spriteTypes = {
 
 
 
-
-
-
-
 	SpriteType = {
 		name = "GFX_ww1_construction1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_construction1.dds"
 	}
+	SpriteType = {
+		name = "GFX_ww1_construction2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_construction2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_construction3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_construction3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_construction4_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_construction4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_construction5_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_construction5.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_construction6_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_construction6.dds"
+	}
+	
+	
 	SpriteType = {
 		name = "GFX_ww1_tools1_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_tools1.dds"
@@ -2446,22 +2484,22 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ww1_tools3_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_tools3.dds"
-	}
-
-
-
-
-	SpriteType = {
-		name = "GFX_ww1_construction1_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_construction1.dds"
-	}
-	SpriteType = {
-		name = "GFX_ww1_tools1_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_tools1.dds"
 	}	
 	SpriteType = {
-		name = "GFX_ww1_tools2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_tools2.dds"
+		name = "GFX_ww1_tools4_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_tools4.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ww1_tools5_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_tools5.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ww1_tools6_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_tools6.dds"
+	}	
+	SpriteType = {
+		name = "GFX_ww1_tools7_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_tools7.dds"
 	}	
 	SpriteType = {
 		name = "GFX_ww1_industry1_medium"
@@ -2474,6 +2512,18 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ww1_industry3_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_industry3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_industry4_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_industry4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_industry5_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_industry5.dds"
+	}
+	SpriteType = {
+		name = "GFX_ww1_industry6_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/industry/ww1_industry6.dds"
 	}
 	SpriteType = {
 		name = "GFX_ww1_mining1_medium"
