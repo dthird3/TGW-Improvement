@@ -3019,12 +3019,12 @@ guiTypes = {
 
 
 				instantTextBoxType = {
-					name = "industry_ww1_oil"
-					position = { x = 1208 y = 115  }
+					name = "industry_ww1_aa"
+					position = { x = 1510 y = 535  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "INDUSTRY_TITLE_OIL_PRODUCTION"
+					text = "INDUSTRY_TITLE_AA"
 					maxWidth = 150
 					maxHeight = 62
 					format = center
@@ -3033,7 +3033,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "industry_subtitle_synthetic_oil"
-					position = { x = 1208 y = 675  }
+					position = { x = 1208 y = 815  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}

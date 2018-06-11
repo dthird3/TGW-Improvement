@@ -130,7 +130,7 @@ technologies = {
 	
 		enable_building = {
 			building = bunker
-			level = 6
+			level = 7
 		}
 		
 		path = {
@@ -1057,6 +1057,10 @@ technologies = {
 
 		path = {
 			leads_to_tech = advanced_machine_tools 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = improved_equipment_conversion 
 			research_cost_coeff = 1
 		}
 		
