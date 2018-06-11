@@ -2144,6 +2144,18 @@ spriteTypes = {
 		name = "GFX_mechanical_computing3_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/mechanical_computing3.dds"
 	}
+	SpriteType = {
+		name = "GFX_mechanical_computing4_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/mechanical_computing4.dds"
+	}
+	SpriteType = {
+		name = "GFX_mechanical_computing5_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/mechanical_computing5.dds"
+	}
+	SpriteType = {
+		name = "GFX_mechanical_computing6_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/mechanical_computing6.dds"
+	}
 
 
 
@@ -2167,32 +2179,27 @@ spriteTypes = {
 
 
 	SpriteType = {
-		name = "GFX_dingfelder_engine1_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/dingfelder_engine1.dds"
+		name = "GFX_mechanical_engineering1_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/engine1.dds"
 	}
 
 	SpriteType = {
-		name = "GFX_dingfelder_engine2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/dingfelder_engine2.dds"
+		name = "GFX_mechanical_engineering2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/engine2.dds"
+	}
+	SpriteType = {
+		name = "GFX_mechanical_engineering3_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/engine3.dds"
+	}
+	SpriteType = {
+		name = "GFX_mechanical_engineering4_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/engine4.dds"
+	}
+	SpriteType = {
+		name = "GFX_mechanical_engineering5_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/engine5.dds"
 	}
 
-	SpriteType = {
-		name = "GFX_tanktrack1_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/tanktrack1.dds"
-	}
-	SpriteType = {
-		name = "GFX_tanktrack2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/tanktrack2.dds"
-	}
-
-	SpriteType = {
-		name = "GFX_tankaircraft1_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/tankaircraft1.dds"
-	}
-	SpriteType = {
-		name = "GFX_tankaircraft2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/tankaircraft2.dds"
-	}
 
 	SpriteType = {
 		name = "GFX_supertech1_medium"
@@ -2203,25 +2210,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/supertech2.dds"
 	}
 
-	# HOI4 TGW 0.5.1 (03/2018)
-	SpriteType = {
-		name = "GFX_subhulltech1_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/subhulltech1.dds"
-	}
-
-
-	SpriteType = {
-		name = "GFX_torpedotech1_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/torpedotech1.dds"
-	}
-	SpriteType = {
-		name = "GFX_torpedotech2_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/torpedotech2.dds"
-	}
-	SpriteType = {
-		name = "GFX_torpedotech3_medium"
-		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/torpedotech3.dds"
-	}
 	
 	SpriteType = {
 		name = "GFX_computing_machine_medium"
@@ -2291,6 +2279,14 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_atomic_research_medium"
 		texturefile = "gfx/interface/technologies/atomic_research.dds"
+	}	
+	SpriteType = {
+		name = "GFX_atomic_research_ww1_medium"
+		texturefile = "gfx/interface/technologies/atomic_research_ww1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_xray_ww1_medium"
+		texturefile = "gfx/interface/technologies/xray_ww1.dds"
 	}	
 	
 	SpriteType = {
@@ -2368,6 +2364,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_hoi4tgw_encryption_medium"
 		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/hoi4tgw_encryption.dds"
+	}	
+	SpriteType = {
+		name = "GFX_hoi4tgw_decryption2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/hoi4tgw_decryption2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_hoi4tgw_encryption2_medium"
+		texturefile = "gfx/interface/technologies/hoi4tgw/engineering/hoi4tgw_encryption2.dds"
 	}	
 
 

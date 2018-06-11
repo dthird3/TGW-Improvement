@@ -14,8 +14,8 @@ set_war_support = 0.70
 set_convoys = 100
 
 puppet = HJZ 
-
-#puppet = YEM
+puppet = YEM
+puppet = ASR
 
 
 #-------------------------------------------------------
@@ -281,11 +281,11 @@ create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_po
 		electronic_mechanical_engineering = 1
 		mechanical_computing = 1
 		chemical_research = 1
-		tank_unlocker1 = 1
+		
 		radio = 1
 		supertech1 = 1
-		tankaircraft1 = 1
-		torpedotech1 = 1
+		
+		
 
 		# Industry
 		ww1_tools1 = 1

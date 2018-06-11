@@ -11,7 +11,11 @@ technologies = {
 			}
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
-	
+		
+		dependencies = {
+			mechanical_engineering2 = 1
+		}
+		
 		path = {
 			leads_to_tech = ww1_armored_car_2
 			research_cost_coeff = 1
@@ -152,7 +156,7 @@ technologies = {
 		}
 
 		dependencies = {
-			tank_unlocker2 = 1
+			mechanical_engineering4 = 1
 		}
 
 		path =
@@ -215,7 +219,7 @@ technologies = {
 		}
 
 		dependencies = {
-			tank_unlocker2 = 1
+			mechanical_engineering4 = 1
 		}
 
 		path =

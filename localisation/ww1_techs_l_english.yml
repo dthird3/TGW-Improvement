@@ -113,6 +113,26 @@ ww1_medicine5_desc:0 "Though our field surgeons are now all well and good, we ca
 
 hoi4tgw_decryption:0 "Decryption - Cryptanalysis"
 hoi4tgw_decryption_desc:0 "Decryption is the reverse, in other words, moving from the unintelligible ciphertext back to plaintext."
-
 hoi4tgw_encryption:0 "Encryption - Cryptography"
 hoi4tgw_encryption_desc:0 "Until modern times, cryptography referred almost exclusively to encryption, which is the process of converting ordinary information into unintelligible text."
+hoi4tgw_decryption2:0 "Decryption - Advanced Cryptanalysis"
+hoi4tgw_decryption2_desc:0 "Decryption is the reverse, in other words, moving from the unintelligible ciphertext back to plaintext."
+hoi4tgw_encryption2:0 "Encryption - Advanced Cryptography"
+hoi4tgw_encryption2_desc:0 "Until modern times, cryptography referred almost exclusively to encryption, which is the process of converting ordinary information into unintelligible text."
+
+
+ mechanical_engineering1:0 "Early Mechanical Engineering"
+ mechanical_engineering1_desc:0 "By producing engines which are lighter, more efficient and more powerful, our armed forces can gain the important speed advantages over the enemy."
+ mechanical_engineering2:0 "Basic Mechanical Engineering"
+ mechanical_engineering2_desc:0 "By producing engines which are lighter, more efficient and more powerful, our armed forces can gain the important speed advantages over the enemy."
+ mechanical_engineering3:0 "Improved Mechanical Engineering"
+ mechanical_engineering3_desc:0 "By producing engines which are lighter, more efficient and more powerful, our armed forces can gain the important speed advantages over the enemy."
+ mechanical_engineering4:0 "Advanced Mechanical Engineering"
+ mechanical_engineering4_desc:0 "By producing engines which are lighter, more efficient and more powerful, our armed forces can gain the important speed advantages over the enemy."
+ mechanical_engineering5:0 "Modern Mechanical Engineering"
+ mechanical_engineering5_desc:0 "By producing engines which are lighter, more efficient and more powerful, our armed forces can gain the important speed advantages over the enemy."
+
+atomic_research_ww1:0 "Radiation Experiments"
+atomic_research_ww1_desc:0 "Radiation Experiments"
+xray_ww1:0 "X-Ray Imaging"
+xray_ww1_desc:0 "X-Ray Imaging"

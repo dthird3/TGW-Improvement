@@ -32,7 +32,7 @@ country_event = {
 	    }
 
 	    ITA = {
-	        load_oob = "ITA_Tobruk" # Italian troops on Tobruk
+	        #load_oob = "ITA_Tobruk" # Italian troops on Tobruk
 
 	        declare_war_on = {
 	            type = take_claimed_state

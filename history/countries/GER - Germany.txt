@@ -146,7 +146,7 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 		# Engineering
 		electronic_mechanical_engineering = 1
 		chemical_research = 1
-		tank_unlocker1 = 1
+		
 
 		# Industry
 		ww1_medicine1 = 1
@@ -355,11 +355,11 @@ create_navy_leader={  name = "Max von Fischel" id=34314 portrait_path="gfx/admir
 		electronic_mechanical_engineering = 1
 		mechanical_computing = 1
 		chemical_research = 1
-		tank_unlocker1 = 1
+		
 		radio = 1
 		supertech1 = 1
-		tankaircraft1 = 1
-		torpedotech1 = 1
+		
+		
 
 		# Industry
 		ww1_tools1 = 1
