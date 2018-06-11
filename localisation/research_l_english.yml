@@ -549,14 +549,19 @@
  advanced_centimetric_radar:0 "Advanced Centimetric Radar"
  advanced_centimetric_radar_desc:0 "Despite our advanced radars, there are still ways for the enemy to avoid detection. New developments like the Pulse-Doppler radar allows us to eliminate many of these limitations in our equipment."
 
- mechanical_computing:0 "Mechanical Computing"
+ mechanical_computing:0 "Early Mechanical Computing"
  mechanical_computing_desc:0 "Constructing machines capable of advanced differential analysis will radically change what sort of machine-assisted calculations can be made."
 
- mechanical_computing2:0 "Improved Mechanical Computing"
+ mechanical_computing2:0 "Basic Mechanical Computing"
  mechanical_computing2_desc:0 "Constructing machines capable of advanced differential analysis will radically change what sort of machine-assisted calculations can be made."
-
- mechanical_computing3:0 "Advanced Mechanical Computing"
+ mechanical_computing3:0 "Improved Mechanical Computing"
  mechanical_computing3_desc:0 "Constructing machines capable of advanced differential analysis will radically change what sort of machine-assisted calculations can be made."
+ mechanical_computing4:0 "Advanced Mechanical Computing"
+ mechanical_computing4_desc:0 "Constructing machines capable of advanced differential analysis will radically change what sort of machine-assisted calculations can be made."
+ mechanical_computing5:0 "Semi-Modern Mechanical Computing"
+ mechanical_computing5_desc:0 "Constructing machines capable of advanced differential analysis will radically change what sort of machine-assisted calculations can be made."
+ mechanical_computing5:0 "Modern Mechanical Computing"
+ mechanical_computing5_desc:0 "Constructing machines capable of advanced differential analysis will radically change what sort of machine-assisted calculations can be made."
 
 
  tankaircraft1:0 "Engineering Drawing"
