@@ -224,8 +224,8 @@ create_navy_leader={  name = "Serafimov" id=12081 portrait_path="gfx/admiral/BUL
 		bonus_bertha1 = 1
 
 		# Land Doctrine
-		ww1_landdoctrine = 1
-		ww1_directfire = 1
+		
+		
 
 		# Navy
 		ww1_destroyer0 = 1

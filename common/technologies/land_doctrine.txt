@@ -1,436 +1,496 @@
 technologies = {
-
-	ww1_landdoctrine = {
-		
-		path = {
-			leads_to_tech = ww1_directfire
-			research_cost_coeff = 1
-		}
-		
-		
-		planning_speed = 0.12
+	ww1_mobile_warfare_1 = {
+		research_cost = 3
+		folder = { name=land_doctrine_folder position={ x=0 y=0 } }
+		categories = { land_doctrine cat_mobile_warfare }
+		path = { leads_to_tech=ww1_mobile_warfare_2 research_cost_coeff=1 }
+		ai_will_do = { factor=20 }
+		ai_research_weights = { infantry_weapons=4.0 }
+		doctrine = yes	
 		army_speed_factor = 0.05
-		org_loss_when_moving = +0.05
-
-		doctrine = yes	
-		research_cost = 3
-
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 0 }
-		}
-		
-		categories = {
-			land_doctrine
-		}
-		
-		ai_will_do = {
-			factor = 20 
-		}
-	}
-
-	ww1_directfire = {
-
-		max_dig_in = 20
-		dig_in_speed_factor = 0.50 #50% bonus		
-
-		category_support_battalions = {
-			max_organisation = 5
-			soft_attack = 0.05
-		}
-
-		path = {
-			leads_to_tech = ww1_rifle_ammo
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ww1_mg_ammo
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 2 }
-		}
-		
-		ai_will_do = {
-			factor = 20
+		org_loss_when_moving = -0.05
+		supply_consumption_factor = -0.1
 		}
 	
+ww1_mobile_warfare_2 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=0 y=2 } }
+	categories = { land_doctrine cat_mobile_warfare }
+	path = { leads_to_tech=ww1_mobile_warfare_3 research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=3.0 }
+	doctrine = yes	
+	army_speed_factor = 0.05
+	no_supply_grace = 48
 	}
 
-	ww1_rifle_ammo = {
-
-
-		xor={
-			ww1_mg_ammo
-		}
-
-		category_army = {
-			soft_attack = 0.10
-		}	
-		
-		path = {
-			leads_to_tech = ww1_long_march
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -2 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}	
+ww1_mobile_warfare_3 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=0 y=4 } }
+	categories = { land_doctrine cat_mobile_warfare }
+	path = { leads_to_tech=ww1_grand_battleplan_1 research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_superior_firepower_1 research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_mass_assault_1 research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=3.0 }
+	doctrine = yes	
+	 recon = { recon=1 }
+	army_speed_factor = 0.05
+	land_reinforce_rate = 0.02
+	out_of_supply_factor = -0.1
 	}
 
-	ww1_mg_ammo = {
-
-		xor={
-			ww1_rifle_ammo
-		}
-
-		category_army = {
-			hard_attack = 0.10
-		}		
-		
-		path = {
-			leads_to_tech = ww1_defence
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 2 y = 4 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}	
+ww1_grand_battleplan_1 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-8 y=6 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_2A research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_grand_battleplan_2B research_cost_coeff=1 }
+	xor = { ww1_superior_firepower_1 ww1_mass_assault_1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=4.0 }
+	doctrine = yes	
+	enable_tactic = tactic_planned_attack
 	}
 
-	ww1_long_march = {
-
-		category_light_infantry = {
-			max_organisation = 5
-		}
-
-		army_speed_factor = 0.10
-		
-		path = {
-			leads_to_tech = ww1_battlefield
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -2 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}	
+ww1_grand_battleplan_2A = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-10 y=8 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_3 research_cost_coeff=1 }
+	xor = { ww1_grand_battleplan_2B }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=3.0 }
+	doctrine = yes	
+	max_planning = 0.2
 	}
 
-	ww1_defence = {
-
-		category_light_infantry = {
-			max_organisation = 15
-		}	
-
-		army_speed_factor = -0.05	
-		land_reinforce_rate = 0.01
-		
-		path = {
-			leads_to_tech = ww1_battlefield
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 2 y = 6 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}	
+ww1_grand_battleplan_2B = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-6 y=8 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_3 research_cost_coeff=1 }
+	xor = { ww1_grand_battleplan_2A }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=3.0 }
+	doctrine = yes	
+	planning_speed = 0.2
 	}
 
-	ww1_battlefield = {
-
-		army_speed_factor = 0.05
-
-		category_army = {
-			breakthrough = 0.10
-		}	
-		
-		path = {
-			leads_to_tech = ww1_target
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 8 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-			modifier = {
-				factor = 0
-				date < 1918.5.1
-				OR = {
-					TAG = ENG
-					TAG = RUS
-					TAG = TUR
-					TAG = LUX
-					TAG = BEL
-				}
-			}
-		}	
+ww1_grand_battleplan_3 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-8 y=10 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_4A research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_grand_battleplan_4B research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=2.0 }
+	doctrine = yes	
+	enable_tactic = tactic_backhand_blow
+	land_night_attack = 0.25
 	}
 
-	ww1_target = {
-
-		category_army = {
-			breakthrough = 0.15
-			soft_attack = 0.10
-		}		
-		
-		path = {
-			leads_to_tech = ww1_night
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 10 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}	
+ww1_grand_battleplan_4A = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-10 y=12 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_5 research_cost_coeff=1 }
+	xor = { ww1_grand_battleplan_4B }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	max_dig_in = 5
+	attrition = -0.02
 	}
 
-	ww1_night = {
-
-		#reduce land night combat penalty
-		land_night_attack = 0.20 # negates half of base penalty	
-		
-		path = {
-			leads_to_tech = ww1_armored_car
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = ww1_tank
-			research_cost_coeff = 1
-		}
-
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 20
-		}	
+ww1_grand_battleplan_4B = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-6 y=12 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_5 research_cost_coeff=1 }
+	xor = { ww1_grand_battleplan_4A }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	dig_in_speed_factor = 0.25
+	attrition = -0.02
 	}
 
-	ww1_armored_car = {
-
-		xor={
-			ww1_tank
-		}
-
-		category_all_armor = {
-			soft_attack = 0.15
-		}
-		
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-
-		path = {
-			leads_to_tech = ww1_armored_car_and_tank
-			research_cost_coeff = 1
-		}
+ww1_grand_battleplan_5 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-8 y=14 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_6 research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_tanks_doctrine_1 research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	enable_tactic = tactic_barrage
 	}
 
-	ww1_tank = {
-
-		xor={
-			ww1_armored_car
-		}
-
-		category_all_armor = {
-			hard_attack = 0.15
-		}
-		
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 2 y = 14 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-
-		path = {
-			leads_to_tech = ww1_armored_car_and_tank
-			research_cost_coeff = 1
-		}
+ww1_grand_battleplan_6 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-8 y=16 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_7A research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_grand_battleplan_7B research_cost_coeff=1 }
+	xor = { ww1_tanks_doctrine_1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	 category_support_battalions = { breakthrough=0.1 default_morale=0.1 }
+	land_reinforce_rate = 0.05
 	}
 
-	ww1_armored_car_and_tank = {
-
-		category_all_armor = {
-			hard_attack = 0.10
-			soft_attack = 0.10
-			breakthrough = 0.10
-		}
-		
-		doctrine = yes	
-		research_cost = 3
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 16 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
-
-		path = {
-			leads_to_tech = ww1_landdoctrine_unlock_ww2
-			research_cost_coeff = 1
-		}
+ww1_grand_battleplan_7A = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-10 y=18 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_8 research_cost_coeff=1 }
+	xor = { ww1_grand_battleplan_7B }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	category_all_infantry = { breakthrough=0.1 default_morale=0.1 }
 	}
 
-
-	ww1_landdoctrine_unlock_ww2 = {
-
-		category_all_armor = {
-			breakthrough = 0.15
-		}
-
-		max_dig_in = -20
-		dig_in_speed_factor = -0.50 #50% bonus	
-
-		planning_speed = 0.3
-		army_speed_factor = 0.15
-
-		org_loss_when_moving = 0.05
-		
-		doctrine = yes	
-		research_cost = 2
-		
-		categories = {
-			land_doctrine
-		}
-
-		
-		folder = {
-			name = land_doctrine_folder
-			position = { x = 0 y = 18 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-		}
+ww1_grand_battleplan_7B = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-6 y=18 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=ww1_grand_battleplan_8 research_cost_coeff=1 }
+	xor = { ww1_grand_battleplan_7A }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	 category_line_artillery = { breakthrough=0.1 default_morale=0.1 }
 	}
 
+ww1_grand_battleplan_8 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-8 y=20 } }
+	categories = { land_doctrine cat_grand_battle_plan }
+	path = { leads_to_tech=trench_warfare research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	enable_tactic = tactic_unexpected_thrust
+	}
+
+ww1_tanks_doctrine_1 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-0 y=16 } }
+	categories = { land_doctrine cat_mobile_warfare }
+	path = { leads_to_tech=ww1_tanks_doctrine_2 research_cost_coeff=1 }
+	xor = { ww1_grand_battleplan_6 ww1_superior_firepower_6 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { armor=4.0 }
+	doctrine = yes	
+	category_all_armor = { breakthrough=0.1 default_morale=0.1 }
+	enable_tactic = tactic_breakthrough
+	}
+
+ww1_tanks_doctrine_2 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-0 y=18 } }
+	categories = { land_doctrine cat_mobile_warfare }
+	path = { leads_to_tech=ww1_tanks_doctrine_3 research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { armor=3.0 }
+	doctrine = yes	
+	category_all_armor = { soft_attack=0.1 maximum_speed=0.1 }
+	org_loss_when_moving = -0.1
+	}
+
+ww1_tanks_doctrine_3 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=-0 y=20 } }
+	categories = { land_doctrine cat_mobile_warfare }
+	path = { leads_to_tech=mobile_warfare research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { armor=2.0 }
+	doctrine = yes	
+	category_all_armor = { breakthrough=0.1 default_morale=0.1 }
+	enable_tactic = tactic_blitz
+	}
+
+ww1_superior_firepower_1 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=8 y=6 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_2A research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_superior_firepower_2B research_cost_coeff=1 }
+	xor = { ww1_mass_assault_1 ww1_grand_battleplan_1  }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=4.0 }
+	doctrine = yes	
+	enable_tactic = tactic_overwhelming_fire
+	}
+
+ww1_superior_firepower_2A = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=6 y=8 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_3 research_cost_coeff=1 }
+	xor = { ww1_superior_firepower_2B }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=3.0 }
+	doctrine = yes	
+	max_dig_in = 10
+	attrition = -0.05
+	}
+
+ww1_superior_firepower_2B = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=10 y=8 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_3 research_cost_coeff=1 }
+	xor = { ww1_superior_firepower_2A }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=3.0 }
+	doctrine = yes	
+	dig_in_speed_factor = 0.5
+	attrition = -0.05
+	}
+
+ww1_superior_firepower_3 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=8 y=10 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_4A research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_superior_firepower_4B research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=2.0 }
+	doctrine = yes	
+	enable_tactic = tactic_elastic_defense
+	max_dig_in = 10
+	attrition = -0.05
+	}
+
+ww1_superior_firepower_4A = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=6 y=12 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_5 research_cost_coeff=1 }
+	xor = { ww1_superior_firepower_4B }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	max_planning = 0.1
+	}
+
+ww1_superior_firepower_4B = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=10 y=12 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_5 research_cost_coeff=1 }
+	xor = { ww1_superior_firepower_4A }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	planning_speed = 0.1
+	}
+
+ww1_superior_firepower_5 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=8 y=14 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_6 research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_tanks_doctrine_1 research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	enable_tactic = tactic_tactical_withdrawal
+	land_reinforce_rate = 0.02
+	}
+
+ww1_superior_firepower_6 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=8 y=16 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_7A research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_superior_firepower_7B research_cost_coeff=1 }
+	xor = { ww1_tanks_doctrine_1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	land_night_attack = 0.25
+	}
+
+ww1_superior_firepower_7A = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=6 y=18 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_8 research_cost_coeff=1 }
+	xor = { ww1_superior_firepower_7B }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	category_all_infantry = { breakthrough=0.1 default_morale=0.1 }
+	}
+
+ww1_superior_firepower_7B = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=10 y=18 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=ww1_superior_firepower_8 research_cost_coeff=1 }
+	xor = { ww1_superior_firepower_7A }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	conscription = 0.02
+	}
+
+ww1_superior_firepower_8 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=8 y=20 } }
+	categories = { land_doctrine cat_superior_firepower }
+	path = { leads_to_tech=superior_firepower research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { artillery=1.0 }
+	doctrine = yes	
+	enable_tactic = tactic_infantry_charge
+	}
+
+ww1_mass_assault_1 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=16 y=6 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_2A research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_mass_assault_2B research_cost_coeff=1 }
+	xor = { ww1_superior_firepower_1 ww1_grand_battleplan_1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=4.0 }
+	doctrine = yes	
+	enable_tactic = tactic_delay
+	land_reinforce_rate = 0.05
+	}
+
+ww1_mass_assault_2A = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=14 y=8 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_3 research_cost_coeff=1 }
+	xor = { ww1_mass_assault_2B }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=3.0 }
+	doctrine = yes	
+	max_dig_in = 5
+	attrition = -0.02
+	}
+
+ww1_mass_assault_2B = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=18 y=8 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_3 research_cost_coeff=1 }
+	xor = { ww1_mass_assault_2A }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=3.0 }
+	doctrine = yes	
+	dig_in_speed_factor = 0.25
+	attrition = -0.02
+	}
+
+ww1_mass_assault_3 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=16 y=10 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_4A research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_mass_assault_4B research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=2.0 }
+	doctrine = yes	
+	enable_tactic = tactic_relentless_assault
+	supply_consumption_factor = -0.1
+	}
+
+ww1_mass_assault_4A = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=14 y=12 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_5 research_cost_coeff=1 }
+	xor = { ww1_mass_assault_4B }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=1.0 }
+	doctrine = yes	
+	max_planning = 0.1
+	}
+
+ww1_mass_assault_4B = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=18 y=12 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_5 research_cost_coeff=1 }
+	xor = { ww1_mass_assault_4A }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=1.0 }
+	doctrine = yes	
+	planning_speed = 0.1
+	}
+
+ww1_mass_assault_5 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=16 y=14 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_6 research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=1.0 }
+	doctrine = yes	
+	enable_tactic = tactic_human_wave_tactics
+	land_reinforce_rate = 0.05
+	out_of_supply_factor = -0.1
+	}
+
+ww1_mass_assault_6 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=16 y=16 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_7A research_cost_coeff=1 }
+	path = { leads_to_tech=ww1_mass_assault_7B research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=1.0 }
+	doctrine = yes	
+	conscription = 0.05
+	supply_consumption_factor = -0.1
+	}
+
+ww1_mass_assault_7A = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=14 y=18 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_8 research_cost_coeff=1 }
+	xor = { ww1_mass_assault_7B }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=1.0 }
+	doctrine = yes	
+	conscription = 0.05
+	}
+
+ww1_mass_assault_7B = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=18 y=18 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=ww1_mass_assault_8 research_cost_coeff=1 }
+	xor = { ww1_mass_assault_7A }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=1.0 }
+	doctrine = yes	
+	category_all_infantry = { soft_attack=0.1 maximum_speed=0.1 }
+	land_reinforce_rate = 0.05
+	}
+
+ww1_mass_assault_8 = {
+	research_cost = 3
+	folder = { name=land_doctrine_folder position={ x=16 y=20 } }
+	categories = { land_doctrine cat_mass_assault }
+	path = { leads_to_tech=mass_assault research_cost_coeff=1 }
+	ai_will_do = { factor=20 }
+	ai_research_weights = { infantry_weapons=1.0 }
+	doctrine = yes	
+	enable_tactic = tactic_guerrilla_tactics
+	out_of_supply_factor = -0.1
+	}
 
 #========================================================================================================================
 #VANILLA
@@ -444,9 +504,9 @@ technologies = {
 		#-----------------------------------------
 		# With this dependencies we can lock WW2 Doctrines; you need to complete WW1 Doctrines first
 
-		dependencies = {
-			ww1_landdoctrine_unlock_ww2 = 1
-		}
+		#dependencies = {
+		#	ww1_landdoctrine_unlock_ww2 = 1
+		#}
 		#-----------------------------------------
 
 		path = {
@@ -468,7 +528,7 @@ technologies = {
 
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 22 }
 		}
 		
 		categories = {
@@ -510,7 +570,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 24 }
 		}
 		
 		ai_will_do = {
@@ -557,7 +617,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 26 }
 		}
 		
 		ai_will_do = {
@@ -600,7 +660,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -637,7 +697,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -685,7 +745,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 10 }
+			position = { x = -2 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -731,7 +791,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -772,7 +832,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = 2 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -823,7 +883,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -868,7 +928,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -911,7 +971,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = 2 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -945,7 +1005,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 16 }
+			position = { x = 2 y = 38 }
 		}
 		
 		ai_will_do = {
@@ -979,7 +1039,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 18 }
+			position = { x = 2 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -1017,7 +1077,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = -2 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -1050,7 +1110,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 16 }
+			position = { x = -2 y = 38 }
 		}
 		
 		ai_will_do = {
@@ -1081,7 +1141,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = -2 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -1100,9 +1160,9 @@ technologies = {
 		#-----------------------------------------
 		# With this dependencies we can lock WW2 Doctrines; you need to complete WW1 Doctrines first
 
-		dependencies = {
-			ww1_landdoctrine_unlock_ww2 = 1
-		}
+		#dependencies = {
+		#	ww1_landdoctrine_unlock_ww2 = 1
+		#}
 		#-----------------------------------------
 
 		xor = { mobile_warfare trench_warfare mass_assault } 
@@ -1129,7 +1189,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 0 }
+			position = { x = 8 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -1164,7 +1224,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = 8 y = 24 }
 		}
 		
 		ai_will_do = {
@@ -1206,7 +1266,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 8 y = 26 }
 		}
 		
 		ai_will_do = {
@@ -1247,7 +1307,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 10 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -1284,7 +1344,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = 10 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -1323,7 +1383,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = 6 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -1360,7 +1420,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = 6 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -1403,7 +1463,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 10 }
+			position = { x = 8 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -1442,7 +1502,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 12 }
+			position = { x = 6 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -1481,7 +1541,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = 6 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -1516,7 +1576,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 16 }
+			position = { x = 6 y = 38 }
 		}
 		
 		ai_will_do = {
@@ -1548,7 +1608,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = 6 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -1587,7 +1647,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 12 }
+			position = { x = 10 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -1624,7 +1684,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = 10 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -1669,7 +1729,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 16 }
+			position = { x = 10 y = 38 }
 		}
 		
 		ai_will_do = {
@@ -1701,7 +1761,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 18 }
+			position = { x = 10 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -1721,9 +1781,9 @@ technologies = {
 		#-----------------------------------------
 		# With this dependencies we can lock WW2 Doctrines; you need to complete WW1 Doctrines first
 
-		dependencies = {
-			ww1_landdoctrine_unlock_ww2 = 1
-		}
+		#dependencies = {
+		#	ww1_landdoctrine_unlock_ww2 = 1
+		#}
 		#-----------------------------------------
 
 		xor = { mobile_warfare superior_firepower mass_assault } 
@@ -1748,7 +1808,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 0 }
+			position = { x = -8 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -1783,7 +1843,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = -8 y = 24 }
 		}
 		
 		ai_will_do = {
@@ -1821,7 +1881,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = -8 y = 26 }
 		}
 		
 		ai_will_do = {
@@ -1863,7 +1923,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 6 }
+			position = { x = -8 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -1909,7 +1969,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = -10 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -1945,7 +2005,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 10 }
+			position = { x = -10 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -1984,7 +2044,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 12 }
+			position = { x = -10 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -2022,7 +2082,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = -10 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -2058,7 +2118,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 16 }
+			position = { x = -10 y = 38 }
 		}
 		
 		ai_will_do = {
@@ -2092,7 +2152,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = -10 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -2133,7 +2193,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = -6 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -2175,7 +2235,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 10 }
+			position = { x = -6 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -2209,7 +2269,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 12 }
+			position = { x = -6 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -2246,7 +2306,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = -6 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -2283,7 +2343,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 16 }
+			position = { x = -6 y = 38 }
 		}
 		
 		ai_will_do = {
@@ -2315,7 +2375,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 18 }
+			position = { x = -6 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -2335,9 +2395,9 @@ technologies = {
 		#-----------------------------------------
 		# With this dependencies we can lock WW2 Doctrines; you need to complete WW1 Doctrines first
 
-		dependencies = {
-			ww1_landdoctrine_unlock_ww2 = 1
-		}
+		#dependencies = {
+		#	ww1_landdoctrine_unlock_ww2 = 1
+		#}
 		#-----------------------------------------
 
 		xor = { mobile_warfare superior_firepower trench_warfare } 
@@ -2364,7 +2424,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 0 }
+			position = { x = 16 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -2399,7 +2459,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 2 }
+			position = { x = 16 y = 24 }
 		}
 		
 		ai_will_do = {
@@ -2440,7 +2500,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 0 y = 4 }
+			position = { x = 16 y = 26 }
 		}
 		
 		ai_will_do = {
@@ -2480,7 +2540,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 6 }
+			position = { x = 14 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -2516,7 +2576,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 8 }
+			position = { x = 14 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -2550,7 +2610,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 10 }
+			position = { x = 14 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -2592,7 +2652,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 12 }
+			position = { x = 14 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -2633,7 +2693,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 14 }
+			position = { x = 14 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -2679,7 +2739,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 16 }
+			position = { x = 14 y = 38 }
 		}
 		
 		ai_will_do = {
@@ -2709,7 +2769,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = -2 y = 18 }
+			position = { x = 14 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -2753,7 +2813,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 6 }
+			position = { x = 18 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -2792,7 +2852,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 8 }
+			position = { x = 18 y = 30 }
 		}
 		
 		ai_will_do = {
@@ -2830,7 +2890,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 10 }
+			position = { x = 18 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -2872,7 +2932,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 12 }
+			position = { x = 18 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -2906,7 +2966,7 @@ technologies = {
 		
 		folder = {
 			name = land_doctrine_folder
-			position = { x = 2 y = 14 }
+			position = { x = 18 y = 36 }
 		}
 		
 		ai_will_do = {

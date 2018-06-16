@@ -369,8 +369,8 @@ create_navy_leader={  name = "Tyrwhitt" id=28485 portrait_path="gfx/admiral/ENG_
 		bonus_bertha1 = 1
 
 		# Land Doctrine
-		ww1_landdoctrine = 1
-		ww1_directfire = 1
+		
+		
 
 		# Navy
 		ww1_battlecruiser2 = 1

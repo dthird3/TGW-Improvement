@@ -3199,46 +3199,33 @@ guiTypes = {
 			containerWindowType = {
 				name = "size_filler"
 				position = { x=0 y=0 }
-				size = { width = 2550 height = 100% }
+				size = { width = 2100 height = 100% }
 			}
-
-			iconType = {
-				name ="ww1_landdoctrine_bg"
-				spriteType = "GFX_ww1_landdoctrine_bg"
-				position = { x=85 y=33 }
-			}	
 	
 	
 			iconType = {
 				name ="mob_warfare_bg"
 				spriteType = "GFX_mob_warfare_bg"
-				#position = { x=85 y=33 }
-				position = { x=570 y=33 }
+				position = { x=575 y=33 }
 			}			
 				
 			iconType = {
 				name ="sup_firepower_bg"
 				spriteType = "GFX_sup_firepower_bg"
-				#position = { x=575 y=33 }
 				position = { x=1050 y=33 }
 			}	
 	
 			iconType = {
 				name ="grand_battleplan_bg"
 				spriteType = "GFX_grand_battleplan_bg"
-				#position = { x=1050 y=33 }
-				position = { x=1535 y=33 }
+				position = { x=85 y=33 }
 			}
 
 			iconType = {
 				name ="mass_assault_bg"
 				spriteType = "GFX_mass_assault_bg"
-				#position = { x=1535 y=33 }
-				position = { x=2010 y=33 }
+				position = { x=1535 y=33 }
 			}	
-
-	#========================================================	
-
 			iconType = {
 				name = "highlight_grand_battle_plan"
 				spriteType = "GFX_tutorial_research_small_item_icon_glow"
@@ -3246,25 +3233,10 @@ guiTypes = {
 				hide = yes
 				alwaystransparent = yes
 			}
-
-	#========================================================		
-	
-			instantTextBoxType = {
-				name = "ww1_landdoctrine_title"
-				position = { x = 120 y = 35 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "TITLE_WW1_LANDDOCTRINE"
-				maxWidth = 400
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
 		
+			
 			instantTextBoxType = {
 				name = "mob_warfare_title"
-				#position = { x = 120 y = 35 }
 				position = { x = 600 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
@@ -3278,7 +3250,6 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "superior_firepower_title"
-				#position = { x = 600 y = 35 }
 				position = { x = 1080 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
@@ -3292,8 +3263,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "grand_battleplan_title"
-				#position = { x = 1080 y = 35 }
-				position = { x = 1560 y = 35 }
+				position = { x = 120 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3306,8 +3276,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "mass_assault_title"
-				#position = { x = 1560 y = 35 }
-				position = { x = 2040 y = 35 }
+				position = { x = 1560 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3316,27 +3285,11 @@ guiTypes = {
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-			}	
-
-	#========================================================			
-
-			instantTextBoxType = {
-				name = "ww1_landdoctrine_desc"
-				position = { x = 150 y = 90 }
-				textureFile = ""
-				font = "hoi_20b"
-				borderSize = {x = 0 y = 4}
-				text = "WW1_LANDDOCTRINE_DESC"
-				maxWidth = 350
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-			}
+			}				
 
 			instantTextBoxType = {
 				name = "mob_warfare_desc"
-				#position = { x = 140 y = 90 }
-				position = { x = 627 y = 90 }
+				position = { x = 600 y = 90 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -3349,8 +3302,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "superior_firepower_desc"
-				#position = { x = 600 y = 90 }
-				position = { x = 1090 y = 90 }
+				position = { x = 1100 y = 90 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -3363,9 +3315,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "grand_battleplan_desc"
-
-				#position = { x = 1100 y = 90 }
-				position = { x = 1600 y = 90 }
+				position = { x = 140 y = 90 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -3378,8 +3328,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "mass assault_desc"
-				#position = { x = 1606 y = 90 }
-				position = { x = 2100 y = 90 }
+				position = { x = 1606 y = 90 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
@@ -3389,73 +3338,10 @@ guiTypes = {
 				format = center
 				Orientation = "UPPER_LEFT"
 			}
-
-	#========================================================
-
-
-
-			instantTextBoxType = {
-				name = "ww1_landdoctrine_subtitle1"
-				position = { x = 150 y = 318 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "MOBILE_DEFENSE_LABEL"
-				maxWidth = 100
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				#pdx_tooltip = "MOBILE_INFANTRY_LABEL_TT"
-			}
-
-			instantTextBoxType = {
-				name = "ww1_landdoctrine_subtitle2"
-				position = { x = 395 y = 318 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "STATIC_DEFENSE_LABEL"
-				maxWidth = 100
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				#pdx_tooltip = "BLITZKRIEG_LABEL_TT"
-			}
-
-			instantTextBoxType = {
-				name = "ww1_landdoctrine_subtitle3"
-				position = { x = 150 y = 919 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "LIGHT_SUPPORT_LABEL"
-				maxWidth = 100
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				#pdx_tooltip = "MOBILE_INFANTRY_LABEL_TT"
-			}
-
-			instantTextBoxType = {
-				name = "ww1_landdoctrine_subtitle4"
-				position = { x = 395 y = 919 }
-				textureFile = ""
-				font = "hoi_22tech"
-				borderSize = {x = 0 y = 4}
-				text = "HEAVY_SUPPORT_LABEL"
-				maxWidth = 100
-				maxHeight = 122
-				format = center
-				Orientation = "UPPER_LEFT"
-				#pdx_tooltip = "BLITZKRIEG_LABEL_TT"
-			}
-
-
-		
+			
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle1"
-				#position = { x = 110 y = 435 }
-				position = { x = 600 y = 435 }
+				position = { x = 600 y = 1735 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3469,8 +3355,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle2"
-				#position = { x = 355 y = 455 }
-				position = { x = 845 y = 455 }
+				position = { x = 845 y = 1755 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3484,8 +3369,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle3"
-				#position = { x = 110 y = 919 }
-				position = { x = 600 y = 919 }
+				position = { x = 600 y = 2219 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3499,8 +3383,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle4"
-				#position = { x = 360 y = 919 }
-				position = { x = 850 y = 919 }
+				position = { x = 850 y = 2219 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3514,8 +3397,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "sup_firepower_subtitle1"
-				#position = { x = 600 y = 435 }
-				position = { x = 1090 y = 435 }
+				position = { x = 1090 y = 1735 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3529,8 +3411,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "sup_firepower_subtitle2"
-				#position = { x = 850 y = 435 }
-				position = { x = 1340 y = 435 }
+				position = { x = 1340 y = 1735 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3544,8 +3425,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "sup_firepower_subtitle3"
-				#position = { x = 600 y = 795 }
-				position = { x = 1090 y = 795 }
+				position = { x = 1090 y = 2145 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3559,8 +3439,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "sup_firepower_subtitle4"
-				#position = { x = 840 y = 795 }
-				position = { x = 1330 y = 795 }
+				position = { x = 1330 y = 2145 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3574,8 +3453,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "grand_battleplan_subtitle1"
-				#position = { x = 1070 y = 575 }
-				position = { x = 1560 y = 575 }
+				position = { x = 110 y = 1875 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3589,8 +3467,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "grand_battleplan_subtitle2"
-				#position = { x = 1310 y = 575 }
-				position = { x = 1800 y = 575 }
+				position = { x = 350 y = 1875 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3604,8 +3481,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "mass_assault_subtitle1"
-				#position = { x = 1560 y = 435 }
-				position = { x = 2050 y = 435 }
+				position = { x = 1560 y = 1735 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3619,8 +3495,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "mass_assault_subtitle2"
-				#position = { x = 1816 y = 435 }
-				position = { x = 2306 y = 435 }
+				position = { x = 1816 y = 1735 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
@@ -3631,26 +3506,9 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				pdx_tooltip = "MASS_MOBILIZATION_LABEL_TT"
 			}
-
-	#========================================================
-
-			gridboxtype = {
-				name = "ww1_landdoctrine_tree"
-				position = { x=80 y=172 }
-				size = { width = 478 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}				
-			}
 				
 			gridboxtype = {
-				name = "mobile_warfare_tree"
-				#position = { x=80 y=172 }
+				name = "ww1_mobile_warfare_1_tree"
 				position = { x=560 y=172 }
 				size = { width = 478 height = 1350 }
 				slotsize = { width=60 height= 60 }
@@ -3663,52 +3521,7 @@ guiTypes = {
 				}				
 			}
 
-			gridboxtype = {
-				name = "superior_firepower_tree"
-				#position = { x=560 y=172 }
-				position = { x=1040 y=172 }
-				size = { width = 480 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}									
-			}
-
-			gridboxtype = {
-				name = "trench_warfare_tree"
-				#position = { x=1040 y=172 }
-				position = { x=1520 y=172 }
-				size = { width = 480 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}					
-				
-			}
-
-			gridboxtype = {
-				name = "mass_assault_tree"
-				#position = { x=1520 y=172 }
-				position = { x=2000 y=172 }
-				size = { width = 480 height = 1350 }
-				slotsize = { width=60 height= 60 }
-				format = "UP"
-				
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=-150 }					
-				}					
-				
-			}
+			
 		}
 
 		containerWindowType = {

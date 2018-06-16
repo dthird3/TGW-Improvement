@@ -5412,81 +5412,45 @@ spriteTypes = {
 
 	### LAND DOCTRINES HOI4TGW GREAT WAR ###
 
-	SpriteType = {
-		name = "GFX_ww1_landdoctrine_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_directfire.dds"
-		alwaystransparent = yes
-	}
-	SpriteType = {
-		name = "GFX_ww1_directfire_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_military_service.dds"
-		alwaystransparent = yes
-	}
-	SpriteType = {
-		name = "GFX_ww1_rifle_ammo_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_rifle_ammo.dds"
-		alwaystransparent = yes
-	}
-	SpriteType = {
-		name = "GFX_ww1_mg_ammo_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_mg_ammo.dds"
-		alwaystransparent = yes
-	}
-
-
-	SpriteType = {
-		name = "GFX_ww1_long_march_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_long_march.dds"
-		alwaystransparent = yes
-	}
-	SpriteType = {
-		name = "GFX_ww1_defence_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_defence.dds"
-		alwaystransparent = yes
-	}
-
-	SpriteType = {
-		name = "GFX_ww1_battlefield_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_battlefield.dds"
-		alwaystransparent = yes
-	}
-
-
-	SpriteType = {
-		name = "GFX_ww1_target_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_target.dds"
-		alwaystransparent = yes
-	}
-
-	SpriteType = {
-		name = "GFX_ww1_night_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_night.dds"
-		alwaystransparent = yes
-	}
-
-	SpriteType = {
-		name = "GFX_ww1_armored_car_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_armored_car.dds"
-		alwaystransparent = yes
-	}
-	SpriteType = {
-		name = "GFX_ww1_tank_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_tank.dds"
-		alwaystransparent = yes
-	}
-
-	SpriteType = {
-		name = "GFX_ww1_armored_car_and_tank_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_armored_car_and_tank.dds"
-		alwaystransparent = yes
-	}
-
-	SpriteType = {
-		name = "GFX_ww1_landdoctrine_unlock_ww2_medium"
-		texturefile = "gfx/interface/doctrines_hoi4tgw/land/ww1_landdoctrine_unlock_ww2.dds"
-		alwaystransparent = yes
-	}
-
+	SpriteType = { name = "GFX_ww1_mobile_warfare_1_medium" texturefile = "gfx/interface/technologies/ww1_mobile_warfare_1.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mobile_warfare_2_medium" texturefile = "gfx/interface/technologies/ww1_mobile_warfare_2.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mobile_warfare_3_medium" texturefile = "gfx/interface/technologies/ww1_mobile_warfare_3.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_1_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_1.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_2A_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_2A.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_2B_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_2B.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_3_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_3.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_4A_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_4A.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_4B_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_4B.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_5_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_5.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_6_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_6.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_7A_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_7A.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_7B_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_7B.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_grand_battleplan_8_medium" texturefile = "gfx/interface/technologies/ww1_grand_battleplan_8.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_tanks_doctrine_1_medium" texturefile = "gfx/interface/technologies/ww1_tanks_doctrine_1.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_tanks_doctrine_2_medium" texturefile = "gfx/interface/technologies/ww1_tanks_doctrine_2.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_tanks_doctrine_3_medium" texturefile = "gfx/interface/technologies/ww1_tanks_doctrine_3.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_1_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_1.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_2A_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_2A.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_2B_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_2B.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_3_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_3.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_4A_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_4A.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_4B_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_4B.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_5_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_5.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_6_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_6.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_7A_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_7A.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_7B_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_7B.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_superior_firepower_8_medium" texturefile = "gfx/interface/technologies/ww1_superior_firepower_8.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_1_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_1.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_2A_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_2A.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_2B_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_2B.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_3_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_3.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_4A_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_4A.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_4B_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_4B.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_5_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_5.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_6_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_6.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_7A_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_7A.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_7B_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_7B.dds" alwaystransparent = yes }
+SpriteType = { name = "GFX_ww1_mass_assault_8_medium" texturefile = "gfx/interface/technologies/ww1_mass_assault_8.dds" alwaystransparent = yes }
 
 
 

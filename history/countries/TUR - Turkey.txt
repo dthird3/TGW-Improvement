@@ -255,8 +255,8 @@ create_navy_leader={  name = "Arif Paşa" id=90097 portrait_path="gfx/hoi4tgw_po
 		bonus_bertha1 = 1
 
 		# Land Doctrine
-		ww1_landdoctrine = 1
-		ww1_directfire = 1
+		
+		
 
 		# Navy
 		ww1_battleship0 = 1
