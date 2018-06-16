@@ -340,12 +340,6 @@ spriteTypes = {
 		texturefile = "gfx/texticons/nato_unit_infantry_icon_small.dds"
 		legacy_lazy_load = no
 	}	
-
-	spriteType = {
-		name = "GFX_nato_unit_infantry2_icon_small"
-		texturefile = "gfx/texticons/nato_unit_infantry_icon_small.dds"
-		legacy_lazy_load = no
-	}	
 	
 	spriteType = {
 		name = "GFX_nato_unit_super_heavy_armor_icon_small"

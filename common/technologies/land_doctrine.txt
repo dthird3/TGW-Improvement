@@ -2629,9 +2629,6 @@ ww1_mass_assault_8 = {
 		infantry = {
 			combat_width = -0.4
 		}
-		infantry2 = {
-			combat_width = -0.4
-		}
 
 		
 		enable_tactic = tactic_overwhelming_fire
@@ -2830,9 +2827,6 @@ ww1_mass_assault_8 = {
 		infantry = {
 			default_morale = 0.30
 		}
-		infantry2 = {
-			default_morale = 0.30
-		}
 		
 		
 		
@@ -2908,9 +2902,6 @@ ww1_mass_assault_8 = {
 		conscription = 0.05
 				
 		infantry = {
-			combat_width = -0.4
-		}
-		infantry2 = {
 			combat_width = -0.4
 		}
 

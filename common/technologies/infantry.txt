@@ -597,9 +597,6 @@ technologies = {
 		infantry = {
 			defense = 0.1
 		}
-		infantry2 = {
-			defense = 0.1
-		}
 		
 		research_cost = 2.0
 		start_year = 1914
@@ -1352,10 +1349,6 @@ technologies = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
-		infantry2 = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
 		cavalry = {
 			defense = 0.01
 			breakthrough = 0.01
@@ -1393,10 +1386,6 @@ technologies = {
 	support_weapons2 = {
 
 		infantry = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		infantry2 = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
@@ -1451,77 +1440,10 @@ technologies = {
 
 	ww1_infantry2_equip = { # new_adrian / new_stahlhelm
 
-		enable_subunits = {
-			infantry2
-		}
 
-		infantry2 = {
+		infantry = {
 			defense = 0.05
 		}
-
-		###################################################################################
-		# For the Bots, so they will use the new units and, to help them, spawn some
-
-		on_research_complete = {
-
-			hidden_effect = {
-
-				if = {
-					limit = {
-						TAG = GER
-						is_ai = yes
-
-						52 = { #Munich is under German Control
-							is_controlled_by=GER
-						}
-					}
-
-					load_oob = "unlock_GER_ww1_infantry2"
-				}
-
-				if = {
-					limit = {
-						TAG = AUH
-						is_ai = yes
-
-						4 = { #Vienna is under Austrian Control
-							is_controlled_by=AUH
-						}
-					}
-
-					load_oob = "unlock_AUH_ww1_infantry2"
-				}
-
-
-				if = {
-					limit = {
-						TAG = FRA
-						is_ai = yes
-
-						24 = { #Orleans is under French Control
-							is_controlled_by=FRA
-						}
-					}
-
-					load_oob = "unlock_FRA_ww1_infantry2"
-				}
-
-				if = {
-					limit = {
-						TAG = BEL
-						is_ai = yes
-
-						6 = { #Brussels is under Belgium Control
-							is_controlled_by=BEL
-						}
-					}
-
-					load_oob = "unlock_BEL_ww1_infantry2"
-				}
-
-			}
-		}
-		###############################################################
 		
 		path = {
 			leads_to_tech = support_weapons3
@@ -1551,10 +1473,6 @@ technologies = {
 	support_weapons3 = {
 
 		infantry = {
-			defense = 0.03
-			breakthrough = 0.03
-		}
-		infantry2 = {
 			defense = 0.03
 			breakthrough = 0.03
 		}
@@ -1599,10 +1517,6 @@ technologies = {
 	support_weapons4 = {
 
 		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		infantry2 = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1658,10 +1572,6 @@ technologies = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
-		infantry2 = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
 		cavalry = {
 			defense = 0.02
 			breakthrough = 0.02
@@ -1711,10 +1621,6 @@ technologies = {
 	support_weapons6 = {
 
 		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		infantry2 = {
 			defense = 0.05
 			breakthrough = 0.05
 		}
@@ -1768,10 +1674,6 @@ technologies = {
 	support_weapons7 = {
 
 		infantry = {
-			defense = 0.05
-			breakthrough = 0.05
-		}
-		infantry2 = {
 			defense = 0.05
 			breakthrough = 0.05
 		}

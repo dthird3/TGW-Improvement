@@ -859,9 +859,7 @@
  motorized_equipment_0_desc:0 "Les charrettes tirées par les chevaux fournissaient des divisions mobiles avant l'avènement de la motorisation militaire."
  motorized_equipment_2:0 "Motorisation précoce"
  motorized_equipment_2_desc:0 "L'infanterie motorisée est la première étape vers la mécanisation d'une armée. Les camions civils peuvent facilement être utilisés à des fins militaires pour transporter des soldats, remorquer des armes à feu et transporter du matériel et de l'équipement. Cela augmente considérablement la mobilité stratégique des unités d'infanterie, qui dépendraient autrement de la marche."
- 
- infantry2:0 "Infanterie rééquipée"
- 
+  
  ww1_armored_car_equipment:0 "Voiture blindée"
  armored_car_equipment_1:0 "Voiture blindée I"
  armored_car_equipment_2:0 "Voiture blindée II"
