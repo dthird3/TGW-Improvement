@@ -25,38 +25,30 @@ country_event = {
 
 	    # The Italian contingent of 20, 000 troops was deemed sufficient to accomplish the conquest at the time.Tobruk, Derna and Khoms were easily conquered, but the same was not true for Benghazi.
 	    # We must do that otherwise IA won't be able to attack Libya
-	    TUR = {
-	        ITA = {
-	            transfer_state = 451 # Tobruk, Derna and Khoms were easily conquered
-	        }
-	    }
+	    #TUR = {
+	    #    ITA = {
+	    #        transfer_state = 451 # Tobruk, Derna and Khoms were easily conquered
+	    #    }
+	    #}
 
-	    ITA = {
-	        #load_oob = "ITA_Tobruk" # Italian troops on Tobruk
-
-	        declare_war_on = {
-	            type = take_claimed_state
-	            target = TUR
-	        }
-	    }
 	    hidden_effect = {
 	        ITA = {
-	            white_peace = HJZ
-	            white_peace = ASR
-	            white_peace = YEM
+	            #white_peace = HJZ
+	            #white_peace = ASR
+	            #white_peace = YEM
 
-	            diplomatic_relation = {
-	                country = HJZ
-	                relation = non_aggression_pact
-	            }
-	            diplomatic_relation = {
-	                country = ASR
-	                relation = non_aggression_pact
-	            }
-	            diplomatic_relation = {
-	                country = YEM
-	                relation = non_aggression_pact
-	            }
+	            #diplomatic_relation = {
+	            #    country = HJZ
+	            #    relation = non_aggression_pact
+	            #}
+	            #diplomatic_relation = {
+	            #    country = ASR
+	            #    relation = non_aggression_pact
+	            #}
+	            #diplomatic_relation = {
+	            #    country = YEM
+	            #    relation = non_aggression_pact
+	            #}
 				add_named_threat = {
 					threat = 3
 					name = "Italo-Turkish War"
@@ -66,9 +58,9 @@ country_event = {
 		    TUR = {
 		        country_event = { id = ww1_italianturkish.2 days = 1 }
 		    }
-		    HAI = {
-		        country_event = { id = ww1_haiti.1 days = 600 }
-		    }
+		    #HAI = {
+		    #    country_event = { id = ww1_haiti.1 days = 600 }
+		    #}
 	        news_event = { days = 1 id = ww1_italianturkish.8 }
 	    }
 	}
